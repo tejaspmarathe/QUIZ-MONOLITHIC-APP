@@ -1,0 +1,734 @@
+http://localhost:9090/question/addquestion
+http://localhost:9090/question/addquestionlist
+http://localhost:9090/question/getallquestion
+http://localhost:9090/question/getquestion/1
+http://localhost:9090/question/getquestionbyCategoryAndDifficultyLevel?category=java&difficultyLevel=medium
+http://localhost:9090/question/getRandomQuestions?category=java&difficultyLevel=medium&noOfQuestions=5
+
+
+
+
+
+
+
+[
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Number of primitive data types in Java are?",
+    "option1": "6",
+    "option2": "7",
+    "option3": "8",
+    "option4": "9",
+    "correctAnswer": "8"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "Which of the following is not a valid Java keyword?",
+    "option1": "static",
+    "option2": "finalize",
+    "option3": "immutable",
+    "option4": "synchronized",
+    "correctAnswer": "immutable"
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint x = 5;\nSystem.out.println(x++ + ++x);",
+    "option1": "10",
+    "option2": "11",
+    "option3": "12",
+    "option4": "13",
+    "correctAnswer": "12"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which of the following is the correct syntax for a single-line comment in Java?",
+    "option1": "// This is a comment",
+    "option2": "/* This is a comment */",
+    "option3": "<!-- This is a comment -->",
+    "option4": "# This is a comment",
+    "correctAnswer": "// This is a comment"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint x = 10;\nSystem.out.println(x/0);",
+    "option1": "0",
+    "option2": "Infinity",
+    "option3": "Compile-time error",
+    "option4": "Runtime exception",
+    "correctAnswer": "Runtime exception"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which of the following access specifiers can be used for top-level class?",
+    "option1": "private",
+    "option2": "protected",
+    "option3": "public",
+    "option4": "default",
+    "correctAnswer": "public"
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nString s1 = \"hello\";\nString s2 = \"hello\";\nSystem.out.println(s1 == s2);",
+    "option1": "true",
+    "option2": "false",
+    "option3": "Compile-time error",
+    "option4": "Runtime exception",
+    "correctAnswer": "true"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What is the result of the following code snippet?\nint[] arr = {1, 2, 3, 4, 5};\nSystem.out.println(arr.length);",
+    "option1": "5",
+    "option2": "6",
+    "option3": "0",
+    "option4": "Compile-time error",
+    "correctAnswer": "5"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which of the following is a valid declaration of a boolean?",
+    "option1": "boolean b1 = 0;",
+    "option2": "boolean b2 = \"true\";",
+    "option3": "boolean b3 = false;",
+    "option4": "boolean b4 = True;",
+    "correctAnswer": "boolean b3 = false;"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "Which of the following statements is true about Java garbage collection?",
+    "option1": "Garbage collection guarantees that a program will not run out of memory.",
+    "option2": "Garbage collection can occur at any time and objects can be marked for garbage collection if they are not reachable.",
+    "option3": "The `finalize()` method is used to force garbage collection of an object.",
+    "option4": "Garbage collection is only triggered when the JVM runs out of memory.",
+    "correctAnswer": "Garbage collection can occur at any time and objects can be marked for garbage collection if they are not reachable."
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint[] arr = new int[5];\nSystem.out.println(arr[0]);",
+    "option1": "0",
+    "option2": "1",
+    "option3": "Compile-time error",
+    "option4": "Runtime exception",
+    "correctAnswer": "0"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which of the following is a valid way to create an instance of the `StringBuilder` class?",
+    "option1": "StringBuilder sb = new StringBuilder();",
+    "option2": "StringBuilder sb = new StringBuilder(10);",
+    "option3": "StringBuilder sb = \"StringBuilder\";",
+    "option4": "StringBuilder sb = new String();",
+    "correctAnswer": "StringBuilder sb = new StringBuilder();"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nString s = \"Hello World\";\nSystem.out.println(s.substring(0, 5));",
+    "option1": "Hello",
+    "option2": "World",
+    "option3": "Hello World",
+    "option4": "Compile-time error",
+    "correctAnswer": "Hello"
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint i = 10;\nSystem.out.println(i + \"\" + 10);",
+    "option1": "20",
+    "option2": "1010",
+    "option3": "Compile-time error",
+    "option4": "Runtime exception",
+    "correctAnswer": "1010"
+  }
+] 
+  
+  
+  
+  
+  
+  [
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What is the purpose of the 'final' keyword in Java?",
+    "option1": "To declare a constant variable",
+    "option2": "To specify the entry point of a Java program",
+    "option3": "To indicate a method that cannot be overridden",
+    "option4": "To denote a synchronized block",
+    "correctAnswer": "To declare a constant variable"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which of the following is not a valid access specifier in Java?",
+    "option1": "public",
+    "option2": "protected",
+    "option3": "hidden",
+    "option4": "private",
+    "correctAnswer": "hidden"
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nString str = \"Hello\";\nSystem.out.println(str.length());",
+    "option1": "4",
+    "option2": "5",
+    "option3": "6",
+    "option4": "7",
+    "correctAnswer": "5"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What is the difference between '==' and '.equals()' in Java when comparing objects?",
+    "option1": "'==' compares object references, while '.equals()' compares object values",
+    "option2": "'==' compares object values, while '.equals()' compares object references",
+    "option3": "Both '==' and '.equals()' compare object values",
+    "option4": "Both '==' and '.equals()' compare object references",
+    "correctAnswer": "'==' compares object references, while '.equals()' compares object values"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What does the 'this' keyword refer to in Java?",
+    "option1": "The current class object",
+    "option2": "The parent class object",
+    "option3": "The child class object",
+    "option4": "The superclass object",
+    "correctAnswer": "The current class object"
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the purpose of the 'super' keyword in Java?",
+    "option1": "To call the superclass constructor",
+    "option2": "To access the superclass members",
+    "option3": "To invoke the superclass method",
+    "option4": "All of the above",
+    "correctAnswer": "All of the above"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint[] numbers = {1, 2, 3, 4, 5};\nSystem.out.println(numbers[3]);",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "correctAnswer": "4"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What does the 'static' keyword mean in Java?",
+    "option1": "The variable or method belongs to the class rather than any object of the class",
+    "option2": "The variable or method cannot be accessed outside the class",
+    "option3": "The variable or method can only be accessed by a single thread at a time",
+    "option4": "The variable or method can be modified by other classes",
+    "correctAnswer": "The variable or method belongs to the class rather than any object of the class"
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint x = 10;\nSystem.out.println(x > 5 ? \"Greater than 5\" : \"Less than or equal to 5\");",
+    "option1": "Greater than 5",
+    "option2": "Less than or equal to 5",
+    "option3": "10",
+    "option4": "Error",
+    "correctAnswer": "Greater than 5"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which of the following is a marker interface in Java?",
+    "option1": "Serializable",
+    "option2": "Cloneable",
+    "option3": "Runnable",
+    "option4": "Comparable",
+    "correctAnswer": "Serializable"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nSystem.out.println(\"5\" + 3 + 2);",
+    "option1": "10",
+    "option2": "532",
+    "option3": "5",
+    "option4": "Error",
+    "correctAnswer": "532"
+  },
+  {
+    "difficultyLevel": "HIGH",
+    "category": "JAVA",
+    "questionTitle": "What is the purpose of the 'default' keyword in Java switch statements?",
+    "option1": "To specify a default case to be executed when no other case matches",
+    "option2": "To set a default value for a variable",
+    "option3": "To declare a default method in an interface",
+    "option4": "To indicate a default behavior for a class",
+    "correctAnswer": "To specify a default case to be executed when no other case matches"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nString str = \"Java Programming\";\nSystem.out.println(str.substring(5));",
+    "option1": "Java",
+    "option2": "Programming",
+    "option3": "va Programming",
+    "option4": "Programmingva",
+    "correctAnswer": "Programming Programming"
+  },
+  {
+    "difficultyLevel": "MEDIUM",
+    "category": "JAVA",
+    "questionTitle": "What is the purpose of the 'volatile' keyword in Java?",
+    "option1": "To declare a variable that cannot be modified",
+    "option2": "To ensure visibility of changes to variables across threads",
+    "option3": "To specify a variable that is shared among all instances of a class",
+    "option4": "To indicate that a variable is constant",
+    "correctAnswer": "To ensure visibility of changes to variables across threads"
+  }
+  
+  ]
+  
+  
+  
+  
+  
+  [
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which data type in Java is used to store whole numbers?",
+    "option1": "float",
+    "option2": "double",
+    "option3": "int",
+    "option4": "char",
+    "correctAnswer": "int"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What does the 'new' keyword do in Java?",
+    "option1": "Creates a new class",
+    "option2": "Creates a new instance of a class",
+    "option3": "Creates a new method",
+    "option4": "Creates a new variable",
+    "correctAnswer": "Creates a new instance of a class"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which operator in Java is used for division?",
+    "option1": "/",
+    "option2": "%",
+    "option3": "*",
+    "option4": "-",
+    "correctAnswer": "/"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What does the 'public' access specifier mean in Java?",
+    "option1": "Accessible within the same package",
+    "option2": "Accessible only within the same class",
+    "option3": "Accessible from any other class",
+    "option4": "Not accessible from outside the package",
+    "correctAnswer": "Accessible from any other class"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What is the correct way to declare a constant variable in Java?",
+    "option1": "final int x = 10;",
+    "option2": "const int x = 10;",
+    "option3": "static final int x = 10;",
+    "option4": "int final x = 10;",
+    "correctAnswer": "final int x = 10;"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "Which of the following is not a valid Java primitive data type?",
+    "option1": "boolean",
+    "option2": "byte",
+    "option3": "string",
+    "option4": "short",
+    "correctAnswer": "string"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint x = 7;\nSystem.out.println(x % 2);",
+    "option1": "3",
+    "option2": "2",
+    "option3": "1",
+    "option4": "0",
+    "correctAnswer": "1"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What is the purpose of the 'main' method in Java?",
+    "option1": "To define the entry point of a Java program",
+    "option2": "To declare a primary class",
+    "option3": "To initialize variables",
+    "option4": "To define constructors",
+    "correctAnswer": "To define the entry point of a Java program"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What does the 'return' statement do in Java?",
+    "option1": "Terminates a loop",
+    "option2": "Exits a method",
+    "option3": "Returns a value from a method",
+    "option4": "All of the above",
+    "correctAnswer": "All of the above"
+  },
+  {
+    "difficultyLevel": "LOW",
+    "category": "JAVA",
+    "questionTitle": "What is the output of the following code snippet?\nint x = 5;\nint y = 3;\nSystem.out.println(x + y);",
+    "option1": "53",
+    "option2": "8",
+    "option3": "35",
+    "option4": "Error",
+    "correctAnswer": "8"
+  }
+]
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "What is the output of the following code snippet?\n\n```\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list[1:3])\n```",
+        "option1": "[1, 2]",
+        "option2": "[2, 3]",
+        "option3": "[2, 3, 4]",
+        "option4": "[1, 3]",
+        "correctAnswer": "[2, 3]"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "What is the correct way to open a file named 'data.txt' in read mode in Python?",
+        "option1": "file = open('data.txt', 'r')",
+        "option2": "file = open('data.txt', mode='r')",
+        "option3": "file = open('data.txt', read)",
+        "option4": "file = open('data.txt', mode=read)",
+        "correctAnswer": "file = open('data.txt', 'r')"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "Which of the following is used to generate a random integer in Python?",
+        "option1": "randint()",
+        "option2": "randomInt()",
+        "option3": "randrange()",
+        "option4": "randomInteger()",
+        "correctAnswer": "randint()"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "What will be the output of the following code?\n\n```\nprint(3 * 'Python')\n```",
+        "option1": "3",
+        "option2": "PythonPythonPython",
+        "option3": "Syntax Error",
+        "option4": "TypeError",
+        "correctAnswer": "PythonPythonPython"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'lambda' keyword in Python?",
+        "option1": "To define anonymous functions",
+        "option2": "To specify the entry point of a Python program",
+        "option3": "To indicate a method that cannot be overridden",
+        "option4": "To denote a synchronized block",
+        "correctAnswer": "To define anonymous functions"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "What is the output of the following code?\n\n```\nprint('Hello'.upper())\n```",
+        "option1": "HELLO",
+        "option2": "hello",
+        "option3": "Syntax Error",
+        "option4": "TypeError",
+        "correctAnswer": "HELLO"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "Which of the following is NOT a valid data type in Python?",
+        "option1": "int",
+        "option2": "double",
+        "option3": "str",
+        "option4": "bool",
+        "correctAnswer": "double"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "What will the following code output?\n\n```\nprint(len('python'))\n```",
+        "option1": "5",
+        "option2": "6",
+        "option3": "Syntax Error",
+        "option4": "TypeError",
+        "correctAnswer": "6"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "Which of the following is the correct way to comment multiple lines in Python?",
+        "option1": "# This is a comment",
+        "option2": "// This is a comment",
+        "option3": "/* This is a comment */",
+        "option4": "''' This is a comment '''",
+        "correctAnswer": "''' This is a comment '''"
+    },
+    {
+        "difficultyLevel": "LOW",
+        "category": "PYTHON",
+        "questionTitle": "What is the correct way to check if a key exists in a dictionary in Python?",
+        "option1": "if key in dict:",
+        "option2": "if dict.contains(key):",
+        "option3": "if key.contains(dict):",
+        "option4": "if dict[key]:",
+        "correctAnswer": "if key in dict:"
+    }
+]
+
+[
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What does the 'zip' function in Python do?",
+        "option1": "Unzips a file",
+        "option2": "Merges two dictionaries",
+        "option3": "Combines multiple iterables element-wise",
+        "option4": "Compresses a folder",
+        "correctAnswer": "Combines multiple iterables element-wise"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of 'try', 'except', and 'finally' in Python?",
+        "option1": "To handle exceptions",
+        "option2": "To define a loop",
+        "option3": "To create a list",
+        "option4": "To perform arithmetic operations",
+        "correctAnswer": "To handle exceptions"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What is the output of the following code?\n\n```\ndef my_function(*args, **kwargs):\n    print(args)\n    print(kwargs)\n\nmy_function(1, 2, 3, name='John', age=30)\n```",
+        "option1": "(1, 2, 3)\n{'name': 'John', 'age': 30}",
+        "option2": "1\n2\n3\n{'name': 'John', 'age': 30}",
+        "option3": "1\n2\n3\nname=John\nage=30",
+        "option4": "Syntax Error",
+        "correctAnswer": "(1, 2, 3)\n{'name': 'John', 'age': 30}"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'map' function in Python?",
+        "option1": "Iterates over elements of a list",
+        "option2": "Applies a function to each item in an iterable",
+        "option3": "Converts a list of strings to integers",
+        "option4": "Sorts a list in ascending order",
+        "correctAnswer": "Applies a function to each item in an iterable"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "Which of the following is NOT a valid way to open a file in Python?",
+        "option1": "file = open('data.txt')",
+        "option2": "file = open('data.txt', 'r')",
+        "option3": "file = open('data.txt', mode='r')",
+        "option4": "file = open('data.txt', mode=read)",
+        "correctAnswer": "file = open('data.txt', mode=read)"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'yield' keyword in Python?",
+        "option1": "To terminate a loop",
+        "option2": "To generate a sequence of values",
+        "option3": "To raise an exception",
+        "option4": "To import modules",
+        "correctAnswer": "To generate a sequence of values"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What is the output of the following code?\n\n```\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list.pop())\n```",
+        "option1": "1",
+        "option2": "5",
+        "option3": "Syntax Error",
+        "option4": "TypeError",
+        "correctAnswer": "5"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'pass' statement in Python?",
+        "option1": "To exit a loop",
+        "option2": "To raise an exception",
+        "option3": "To define a function",
+        "option4": "To do nothing or create a placeholder",
+        "correctAnswer": "To do nothing or create a placeholder"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What does the 'super()' function do in Python?",
+        "option1": "Calls the parent class method",
+        "option2": "Calls the child class method",
+        "option3": "Calls a method from a different module",
+        "option4": "Calls a method defined in the same class",
+        "correctAnswer": "Calls the parent class method"
+    },
+    {
+        "difficultyLevel": "MEDIUM",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'with' statement in Python?",
+        "option1": "To define a loop",
+        "option2": "To handle exceptions",
+        "option3": "To manage resources and ensure cleanup",
+        "option4": "To perform string operations",
+        "correctAnswer": "To manage resources and ensure cleanup"
+    }
+]
+
+[
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of a metaclass in Python?",
+        "option1": "To create instances of a class",
+        "option2": "To define the behavior of a class",
+        "option3": "To manipulate class definitions at runtime",
+        "option4": "To handle exceptions",
+        "correctAnswer": "To manipulate class definitions at runtime"
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the difference between 'deepcopy' and 'copy' methods in Python's 'copy' module?",
+        "option1": "'deepcopy' creates a shallow copy of an object while 'copy' creates a deep copy.",
+        "option2": "'deepcopy' creates a deep copy of an object including all nested objects, while 'copy' creates a shallow copy.",
+        "option3": "'deepcopy' creates a copy of an object's reference, while 'copy' creates an independent copy.",
+        "option4": "'deepcopy' creates a copy of an object without copying the nested objects, while 'copy' creates a shallow copy.",
+        "correctAnswer": "'deepcopy' creates a deep copy of an object including all nested objects, while 'copy' creates a shallow copy."
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'pickle' module in Python?",
+        "option1": "To serialize Python objects into a byte stream",
+        "option2": "To generate random numbers",
+        "option3": "To manipulate strings",
+        "option4": "To handle file I/O operations",
+        "correctAnswer": "To serialize Python objects into a byte stream"
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'asyncio' module in Python?",
+        "option1": "To perform asynchronous I/O operations",
+        "option2": "To handle exceptions",
+        "option3": "To define decorators",
+        "option4": "To manage resources",
+        "correctAnswer": "To perform asynchronous I/O operations"
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What does the 'sys' module in Python provide?",
+        "option1": "Access to operating system functionalities",
+        "option2": "Access to mathematical functions",
+        "option3": "Access to file I/O operations",
+        "option4": "Access to network functionalities",
+        "correctAnswer": "Access to operating system functionalities"
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'functools' module in Python?",
+        "option1": "To handle exceptions",
+        "option2": "To define decorators",
+        "option3": "To perform string operations",
+        "option4": "To manipulate lists",
+        "correctAnswer": "To define decorators"
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the output of the following code?\n\n```\nfrom datetime import datetime\nprint(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))\n```",
+        "option1": "Current date and time in ISO format",
+        "option2": "Syntax Error",
+        "option3": "TypeError",
+        "option4": "None",
+        "correctAnswer": "Current date and time in ISO format"
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the purpose of the 'logging' module in Python?",
+        "option1": "To perform mathematical operations",
+        "option2": "To handle exceptions",
+        "option3": "To generate random numbers",
+        "option4": "To record and track events in a program",
+        "correctAnswer": "To record and track events in a program"
+    },
+    {
+        "difficultyLevel": "HIGH",
+        "category": "PYTHON",
+        "questionTitle": "What is the difference between 'os.path.join()' and 'os.join()' in Python's 'os' module?",
+        "option1": "'os.path.join()' joins one or more path components intelligently, while 'os.join()' performs bitwise OR operation on integers.",
+        "option2": "'os.path.join()' is used for file I/O operations, while 'os.join()' is used for manipulating strings.",
+        "option3": "'os.path.join()' concatenates path components with the appropriate separator for the current platform, while 'os.join()' joins paths without considering the platform.",
+        "option4": "'os.path.join()' is a deprecated function, while 'os.join()' is the recommended way to join paths.",
+        "correctAnswer": "'os.path.join()' concatenates path components with the appropriate separator for the current platform, while 'os.join()' joins paths without considering the platform."
+    }
+]
